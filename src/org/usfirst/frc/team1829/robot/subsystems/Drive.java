@@ -20,7 +20,6 @@ public class Drive extends Subsystem {
 	private DigitalInput rightTractionSwitch;
 	private DigitalInput rightMecanumSwitch;
 	private RobotDrive robotDrive;
-	
 	public Drive() {
 		frontRight = new CANTalon(0); 
 		frontLeft = new CANTalon(1); 
